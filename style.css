@@ -1,10 +1,11 @@
 * {
-    border: red solid 1px;
+    font-family: 'roboto';
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 ul {
@@ -16,8 +17,50 @@ ul {
 .content {
     display: flex;
     flex-direction: column;
+    flex:1;
+    max-width: 400px;
+    
 }
 
 .intro {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 100px;
+    flex: auto;
+}
+
+.poe {
+    width: 300px;
+    height:auto;
+    border-radius: 40px;
+}
+
+h1 {
+    margin-bottom: -10px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;    
+}
+
+p, ul {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.top {
+    background-color: #1f2937;
+    
+}
+
+button {
+    color:#e5e7eb;
+    background-color: #3882f6;
+    width: 30%;
+    border-radius: 5px;
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
