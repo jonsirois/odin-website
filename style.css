@@ -1,0 +1,23 @@
+* {
+    border: red solid 1px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    display: flex;
+}
