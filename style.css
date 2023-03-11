@@ -31,9 +31,17 @@ ul {
 }
 
 .sherriff {
-    width: 300px;
+    width: 400px;
     height:auto;
     border-radius: 40px;
+    border: groove black 3px;
+}
+
+.signature {
+    height: 50px;
+    width: 80px;
+    align-self: center;
+    margin-top: 20px;
 }
 
 h1 {
@@ -54,13 +62,3 @@ p, ul {
     
 }
 
-button {
-    color:#e5e7eb;
-    background-color: #3882f6;
-    width: 30%;
-    border-radius: 5px;
-    margin-top: -10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
