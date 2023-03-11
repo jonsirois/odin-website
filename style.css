@@ -1,5 +1,7 @@
-* {
-    
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 .header {
     display: flex;
@@ -28,7 +30,7 @@ ul {
 .sherriff {
     width: 400px;
     height:auto;
-    border-radius: 40px;
+    border-radius: 10px;
     border: groove black 3px;
 }
 .signature {
@@ -44,14 +46,15 @@ h1 {
     color: #f9faf8;    
 }
 
-p, ul {
+.introduction, ul {
     font-size: 18px;
     color: #e5e7eb;
 }
 
 .top {
     background-color: #1f2937;
-    padding: 10px 15%;
+    padding: 20px 15% 80px 15%;
+
     
 }
 
@@ -59,11 +62,13 @@ p, ul {
 
 .middle {
     text-align: center;
+    padding-top: 60px;
 }
 .pictures {
     display: flex;
     justify-content: center;
     gap: 40px;
+    padding: 50px;
 }
 
 .pic1, .pic2, .pic3, .pic4 {
@@ -75,5 +80,29 @@ p, ul {
 }
 .box {
     max-width: 150px;
+    font-size: 12px;
+    
+}
+.mid-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
+/*QUOTE*/
+
+.quotesec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 700px;
+    font-weight: lighter;
+}
