@@ -5,7 +5,11 @@
 }
 .header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 5%;
+    
     
 }
 ul {
@@ -26,12 +30,14 @@ ul {
     align-items: center;
     gap: 100px;
     flex: auto;
+    padding: 20px 15% 80px 15%;
 }
 .sherriff {
     width: 400px;
     height:auto;
     border-radius: 10px;
     border: groove black 3px;
+    
 }
 .signature {
     height: 50px;
@@ -53,7 +59,7 @@ h1 {
 
 .top {
     background-color: #1f2937;
-    padding: 20px 15% 80px 15%;
+    
 
     
 }
