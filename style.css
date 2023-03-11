@@ -112,3 +112,48 @@ h1 {
     width: 700px;
     font-weight: lighter;
 }
+
+/*BOTTOM*/
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calltoaction {
+    display: flex;
+    gap: 80px;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 5px;
+    color: #f9faf8;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.signup {
+    max-width: 400px;
+    margin-top: -10px;
+    font-size: smaller;
+}
+
+.call {
+    font-size: larger;
+    font-weight: bolder;
+}
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px #f9faf8 solid;
+    border-radius: 5px;
+    display: flex;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+
+}
