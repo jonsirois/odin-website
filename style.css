@@ -57,4 +57,23 @@ p, ul {
 
 /*Top ^   Middle v*/
 
+.middle {
+    text-align: center;
+}
+.pictures {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.pic1, .pic2, .pic3, .pic4 {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex: auto;
+}
+.box {
+    max-width: 150px;
+}
 
